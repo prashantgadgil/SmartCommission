@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="car_company" label="Car Company" language="en" table="x_bp3g_smart_comm_dealer">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>car_company</element>
+            <help/>
+            <hint/>
+            <label>Car Company</label>
+            <language>en</language>
+            <name>x_bp3g_smart_comm_dealer</name>
+            <plural>Car Companies</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-08 19:30:22</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>0981402bdb445b00a7d0d5f0cf9619fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Car Company</sys_name>
+            <sys_package display_value="Smart Commissions" source="x_bp3g_smart_comm">1ceeeb93db045b00a7d0d5f0cf96195c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Smart Commissions">1ceeeb93db045b00a7d0d5f0cf96195c</sys_scope>
+            <sys_update_name>sys_documentation_x_bp3g_smart_comm_dealer_car_company_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-08 19:30:22</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Purchase" max_length="40" name="x_bp3g_smart_comm_purchase" type="collection">
+        <element label="Customer" max_length="32" name="customer" reference="x_bp3g_smart_comm_customer" type="reference"/>
+        <element label="Dealer" max_length="32" name="dealer" reference="x_bp3g_smart_comm_dealer" type="reference"/>
+        <element label="Loan Amount" max_length="20" name="loan_amount" type="currency"/>
+        <element label="Loan Interest Rate" max_length="40" name="loan_interest_rate" type="float"/>
+        <element label="Loan Term" max_length="40" name="loan_term" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Payment Frequency" max_length="40" name="payment_frequency" type="choice">
+            <choice/>
+        </element>
+        <element label="Purchase Date" max_length="40" name="purchase_date" type="glide_date"/>
+        <element label="Purchase Price" max_length="20" name="purchase_price" type="currency"/>
+        <element label="Vehicle" max_length="32" name="vehicle" reference="x_bp3g_smart_comm_vehicle" type="reference"/>
+        <element label="VIN" max_length="40" name="vin" type="string"/>
+        <index name="index">
+            <element name="dealer"/>
+        </index>
+        <index name="index2">
+            <element name="customer"/>
+        </index>
+        <index name="index3">
+            <element name="vehicle"/>
+        </index>
+    </element>
+</database>

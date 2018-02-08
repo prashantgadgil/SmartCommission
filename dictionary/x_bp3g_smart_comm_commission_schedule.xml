@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Commission Schedule" max_length="40" name="x_bp3g_smart_comm_commission_schedule" type="collection">
+        <element label="Agent Role" max_length="32" name="agent_role" reference="x_bp3g_smart_comm_agent_role" type="reference"/>
+        <element label="Amount" max_length="20" name="amount" type="currency"/>
+        <element label="Commission Structure" max_length="32" name="commission_structure" reference="x_bp3g_smart_comm_commission_structure" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="agent_role"/>
+        </index>
+        <index name="index2">
+            <element name="commission_structure"/>
+        </index>
+    </element>
+</database>

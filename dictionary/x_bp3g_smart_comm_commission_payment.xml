@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Commission Payment" max_length="40" name="x_bp3g_smart_comm_commission_payment" type="collection">
+        <element label="Commission Structure" max_length="32" name="commission_structure" reference="x_bp3g_smart_comm_commission_structure" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Paid To" max_length="32" name="paid_to" reference="x_bp3g_smart_comm_agent" type="reference"/>
+        <element label="Payment Amount" max_length="20" name="payment_amount" type="currency"/>
+        <element label="Payment Date" max_length="40" name="payment_date" type="glide_date"/>
+        <element label="Purchase" max_length="32" name="purchase" reference="x_bp3g_smart_comm_purchase" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="paid_to"/>
+        </index>
+        <index name="index2">
+            <element name="purchase"/>
+        </index>
+        <index name="index3">
+            <element name="commission_structure"/>
+        </index>
+    </element>
+</database>
