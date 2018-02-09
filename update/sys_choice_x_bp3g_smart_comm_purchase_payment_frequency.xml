@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="payment_frequency" table="x_bp3g_smart_comm_purchase" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>payment_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Monthly</label>
+            <language>en</language>
+            <name>x_bp3g_smart_comm_purchase</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-09 01:29:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9c319efdbc45b00a7d0d5f0cf9619e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-09 01:29:46</sys_updated_on>
+            <value>Monthly</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>payment_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bi-Monthly</label>
+            <language>en</language>
+            <name>x_bp3g_smart_comm_purchase</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-09 01:29:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f9c319efdbc45b00a7d0d5f0cf9619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-09 01:29:46</sys_updated_on>
+            <value>Bi-Monthly</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>payment_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Quarterly</label>
+            <language>en</language>
+            <name>x_bp3g_smart_comm_purchase</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-09 01:29:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>79c319efdbc45b00a7d0d5f0cf9619e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-09 01:29:46</sys_updated_on>
+            <value>Quarterly</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>payment_frequency</element>
+            <name>x_bp3g_smart_comm_purchase</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-09 01:29:46</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>b5c319efdbc45b00a7d0d5f0cf9619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>payment_frequency</sys_name>
+            <sys_package display_value="Smart Commissions" source="x_bp3g_smart_comm">1ceeeb93db045b00a7d0d5f0cf96195c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Smart Commissions">1ceeeb93db045b00a7d0d5f0cf96195c</sys_scope>
+            <sys_update_name>sys_choice_x_bp3g_smart_comm_purchase_payment_frequency</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-09 01:29:46</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

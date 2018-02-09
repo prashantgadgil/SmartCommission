@@ -5,8 +5,14 @@
         <element label="Description" max_length="40" name="description" type="string"/>
         <element label="Name" max_length="40" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element choice="1" label="Status" max_length="40" name="status" type="choice">
-            <choice/>
+        <element choice="3" default="Draft" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="Draft" sequence="0" value="Draft"/>
+                <element label="Submitted" sequence="1" value="Submitted"/>
+                <element label="Approved" sequence="2" value="Approved"/>
+                <element label="Rejected" sequence="3" value="Rejected"/>
+                <element label="Deactivated" sequence="4" value="Deactivated"/>
+            </choice>
         </element>
         <element choice="1" label="Template" max_length="40" name="template" type="boolean">
             <choice/>
