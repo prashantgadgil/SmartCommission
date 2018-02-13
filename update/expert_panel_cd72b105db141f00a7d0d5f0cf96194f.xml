@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="expert_panel">
+    <expert_panel action="INSERT_OR_UPDATE">
+        <banner_step display_value="Select Customer Step">7fd2b505db141f00a7d0d5f0cf961962</banner_step>
+        <complete_message>Done</complete_message>
+        <description><![CDATA[<p>Select a custom here</p>]]></description>
+        <expert display_value="New Purchase Wizard">2f327dc1db141f00a7d0d5f0cf961986</expert>
+        <name>Select Customer</name>
+        <next_message>Next</next_message>
+        <order/>
+        <previous_message>Previous</previous_message>
+        <sys_class_name>expert_panel</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 19:35:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cd72b105db141f00a7d0d5f0cf96194f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Select Customer</sys_name>
+        <sys_package display_value="Smart Commissions" source="x_bp3g_smart_comm">1ceeeb93db045b00a7d0d5f0cf96195c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Smart Commissions">1ceeeb93db045b00a7d0d5f0cf96195c</sys_scope>
+        <sys_update_name>expert_panel_cd72b105db141f00a7d0d5f0cf96194f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 19:41:14</sys_updated_on>
+        <title>Select Customer</title>
+    </expert_panel>
+    <sys_translated_text action="delete_multiple" query="documentkey=cd72b105db141f00a7d0d5f0cf96194f"/>
+</record_update>
