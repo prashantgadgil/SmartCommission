@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="expert_panel_template">
+    <expert_panel_template action="INSERT_OR_UPDATE">
+        <banner_step/>
+        <complete_message>Done</complete_message>
+        <description/>
+        <expert display_value="Test Wizard">27b60acddb141f00a7d0d5f0cf961980</expert>
+        <name>Customer</name>
+        <next_message>Next</next_message>
+        <order/>
+        <previous_message>Previous</previous_message>
+        <script/>
+        <sys_class_name>expert_panel_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 21:04:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>71e68acddb141f00a7d0d5f0cf961908</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Customer</sys_name>
+        <sys_package display_value="Smart Commissions" source="x_bp3g_smart_comm">1ceeeb93db045b00a7d0d5f0cf96195c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Smart Commissions">1ceeeb93db045b00a7d0d5f0cf96195c</sys_scope>
+        <sys_update_name>expert_panel_template_71e68acddb141f00a7d0d5f0cf961908</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 21:10:22</sys_updated_on>
+        <table>x_bp3g_smart_comm_customer</table>
+        <template display_value="Customer Template">67280a01db541f00a7d0d5f0cf961978</template>
+        <title/>
+        <view/>
+    </expert_panel_template>
+    <sys_translated_text action="delete_multiple" query="documentkey=71e68acddb141f00a7d0d5f0cf961908"/>
+</record_update>
