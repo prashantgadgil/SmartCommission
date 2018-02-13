@@ -6,7 +6,7 @@
         <alter_access>false</alter_access>
         <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
-        <create_access>false</create_access>
+        <create_access>true</create_access>
         <create_access_controls>true</create_access_controls>
         <delete_access>false</delete_access>
         <extension_model/>
@@ -25,7 +25,7 @@
         <sys_created_on>2018-02-08 19:59:52</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>e83808ebdb445b00a7d0d5f0cf9619c2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Purchase</sys_name>
         <sys_package display_value="Smart Commissions" source="x_bp3g_smart_comm">1ceeeb93db045b00a7d0d5f0cf96195c</sys_package>
         <sys_policy/>
@@ -33,7 +33,7 @@
         <sys_scope display_value="Smart Commissions">1ceeeb93db045b00a7d0d5f0cf96195c</sys_scope>
         <sys_update_name>sys_db_object_e83808ebdb445b00a7d0d5f0cf9619c2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-02-08 19:59:53</sys_updated_on>
+        <sys_updated_on>2018-02-13 20:13:38</sys_updated_on>
         <update_access>false</update_access>
         <user_role display_value="x_bp3g_smart_comm.purchase_user" name="x_bp3g_smart_comm.purchase_user">1148802fdb445b00a7d0d5f0cf961980</user_role>
         <ws_access>true</ws_access>
