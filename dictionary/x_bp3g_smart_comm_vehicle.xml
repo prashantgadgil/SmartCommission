@@ -2,9 +2,9 @@
 <database>
     <element label="Vehicle" max_length="40" name="x_bp3g_smart_comm_vehicle" type="collection">
         <element label="Make" max_length="40" name="make" type="string"/>
+        <element label="Make Year" max_length="40" name="make_year" type="string"/>
         <element label="Model" max_length="40" name="model" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;   var description = current.year + &quot;-&quot; + current.make + &quot;-&quot; +  current.model; &#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return description;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Model Description" max_length="40" name="model_description" type="string" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;   var description =  current.make_year + &quot;-&quot; +  current.model; &#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return description;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Model Description" max_length="40" name="model_description" type="string" virtual="true"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Year" max_length="40" name="year" type="integer"/>
     </element>
 </database>
